@@ -7,7 +7,7 @@ function Result(props, index) {
         }
     )
   return (
-    <div className='w-full grid grid-cols-4 gap-5 mt-3'>
+    <div className='w-full grid md:grid-cols-4 gap-5 mt-3'>
         {boxes}
     </div>
   )
